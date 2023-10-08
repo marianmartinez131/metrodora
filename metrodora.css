@@ -12,15 +12,11 @@
   z-index: 999;
 }
 
-#vintrocap{
-  padding-top: 40px;
-}
-
 #sidebar-cap {
     width: 50px;
     height: 100%;
     position: fixed;
-    background: #1B3440;
+    background: #004d9e;
     top: 72px;
     left: 0;
     margin-bottom: -4500px;
@@ -135,11 +131,13 @@
 }
 
 
-.content1210 {
-    width: 100%;
-    position: absolute;
-    margin: auto;
-    background: white;
+.content1210{
+  width:90%;
+  position: absolute;
+  left: 5%;
+  margin:auto;
+  background:#f0f0f0;
+
 }
 
 .content1210 h1{
@@ -166,7 +164,7 @@
   
   margin-top: 25px;
   width: 60%;
-  border-color: #d8d8d8;
+  border-color: #ced2d6;
 }
 
 
@@ -191,75 +189,67 @@
 .button410 {
     padding: 10px 15px 10px 15px;
     background: none;
-    border: 1px solid #1B3440;
+    border: 1px solid #004d9e;
     float: left;
     border-radius: 35px;
     text-align: center;
     font-size: 16px;
     font-family: poppins;
     font-weight: bold;
-    color: #1B3440!important;
+    color: #004d9e!important;
     transition: 0.5s;
 }
 
 .button410:hover {
-    background: #1B3440;
+    background: #004d9e;
     transition: 0.5s;
-    color: white!important;
-}
-
-.button410 a:hover {
-    transition: 0.5s;
-    color: white!important;
+    color: white;
 }
 
 .button410-2 {
     padding: 10px 15px 10px 15px;
     background: none;
-    border: 1px solid #1B3440;
+    border: 1px solid #004d9e;
     float: right;
     border-radius: 35px;
     text-align: center;
     font-size: 16px;
     font-family: poppins;
     font-weight: bold;
-    color: #1B3440;
+    color: #004d9e;
     width: 190px;
     transition: 0.5s;
 }
 
 .button410-2 a {
-    color: #1B3440;
+    color: #004d9e;
 }
 
-.button410-2 a:hover {
-    color: white!important;
-}
 
 .button410-2:hover {
-    background: #1B3440;
+    background: #004d9e;
     transition: 0.5s;
-    color: white!important;
+    color: white;
 }
 
 .button410-3 {
     padding: 10px 15px 10px 15px;
     margin: auto;
     border-radius: 35px;
-    border: 1px solid #1B3440;
+    border: 1px solid #004d9e;
     text-align: center;
     font-size: 16px;
     font-family: poppins;
     font-weight: bold;
-    color: #1B3440;
+    background: none!important;
+    color: #004d9e;
     width: 150px;
     transition: 0.5s;
 }
 
 .button410-3:hover{
-  background: #1B3440;
+  background: #212529;
   transition: 0.5s;
-  color: white;
 }
 
 
@@ -276,14 +266,14 @@
 }
 
 .parentcap {
-    display: grid;
-    width: 80%;
-    margin: auto;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 0.5fr 1.1fr repeat(2, 0.6fr) 1.1fr repeat(2, 0.6fr) 1.1fr repeat(2, 0.6fr) 1.1fr 0.6fr;
-    color: #212529;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+display: grid;
+width: 80%;
+margin: auto;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 0.5fr 1.1fr repeat(2, 0.6fr) 1.1fr repeat(2, 0.5fr) 1.1fr repeat(2, 0.5fr) 1.1fr 0.5fr;
+ color:#212529;
+grid-column-gap: 20px;
+grid-row-gap: 20px;
 }
 
 .div1cap { grid-area: 1 / 1 / 2 / 3; }
@@ -386,7 +376,6 @@
   .div3cap{
     border-radius:15px;
     background:#dee2e6;
-
 }
 
   .div4cap{
@@ -443,103 +432,11 @@
     background:#dee2e6;
 }
 
-.div2cap {
-    background: white;
-    box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -webkit-box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -moz-box-shadow: 0px 8px 19px -2px rgba(158,147,147,0.77);
-}
-
-
-.div3cap {
-    background: white;
-    box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -webkit-box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -moz-box-shadow: 0px 8px 19px -2px rgba(158,147,147,0.77);
-} 
-
-.div4cap {
-    background: white;
-    box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -webkit-box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -moz-box-shadow: 0px 8px 19px -2px rgba(158,147,147,0.77);
-} 
-
-
-.div6cap {
-    background: white;
-    box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -webkit-box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -moz-box-shadow: 0px 8px 19px -2px rgba(158,147,147,0.77);
-} 
-
-.div7cap {
-    background: white;
-    box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -webkit-box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -moz-box-shadow: 0px 8px 19px -2px rgba(158,147,147,0.77);
-} 
-
-
-.div8cap {
-    background: white;
-    box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -webkit-box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -moz-box-shadow: 0px 8px 19px -2px rgba(158,147,147,0.77);
-} 
-
-
-.div10cap {
-    background: white;
-    box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -webkit-box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -moz-box-shadow: 0px 8px 19px -2px rgba(158,147,147,0.77);
-} 
-
-.div11cap {
-    background: white;
-    box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -webkit-box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -moz-box-shadow: 0px 8px 19px -2px rgba(158,147,147,0.77);
-} 
-
-.div12cap {
-    background: white;
-    box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -webkit-box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -moz-box-shadow: 0px 8px 19px -2px rgba(158,147,147,0.77);
-} 
-
-
-.div14cap {
-    background: white;
-    box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -webkit-box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -moz-box-shadow: 0px 8px 19px -2px rgba(158,147,147,0.77);
-} 
-
-.div15cap {
-    background: white;
-    box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -webkit-box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -moz-box-shadow: 0px 8px 19px -2px rgba(158,147,147,0.77);
-} 
-
-.div16cap {
-    background: white;
-    box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -webkit-box-shadow: 0px 8px 19px -2px rgb(158 147 147 / 77%);
-    -moz-box-shadow: 0px 8px 19px -2px rgba(158,147,147,0.77);
-} 
-
-
-
-
 
 .hr410 {
     margin-top: 40px;
     width: 60%;
-    border-color: #d8d8d8;
+    border-color: #f9f9f9;
     margin: auto;
     margin-top: 40px;
     padding-bottom: 20px;
@@ -547,7 +444,7 @@
 
 .hr4102 {
     width: 60%;
-    border-color: #d8d8d8;
+    border-color: #f9f9f9;
     padding-top: 40px;
     margin: auto;
     margin-top: 40px;
@@ -590,10 +487,9 @@
 #otherarrow1, #otherarrow2, #otherarrow3, #otherarrow4, #otherarrow5, #otherarrow6, #otherarrow7, #otherarrow8, #otherarrow9, #otherarrow10, #otherarrow11, #otherarrow12{
     float: right;
     padding: 20px;
-    font-size: 45px!important;
+    font-size: 30px!important;
     transition: 0.5s;
     opacity: 0;
-    color:#005587;
 }
 
 
@@ -605,12 +501,4 @@
 
 .imghovercap{
   transition: 0.5s;
-}
-
-.no-gutters{
-  margin-left:10px!important;
-}
-
-#diagnosticoevolucion-1{
-  width:230px!important;
 }
