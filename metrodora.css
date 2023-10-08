@@ -20,7 +20,7 @@
     width: 50px;
     height: 100%;
     position: fixed;
-    background: #004d9e;
+    background: #1B3440;
     top: 72px;
     left: 0;
     margin-bottom: -4500px;
@@ -191,19 +191,19 @@
 .button410 {
     padding: 10px 15px 10px 15px;
     background: none;
-    border: 1px solid #004d9e;
+    border: 1px solid #1B3440;
     float: left;
     border-radius: 35px;
     text-align: center;
     font-size: 16px;
     font-family: poppins;
     font-weight: bold;
-    color: #004d9e!important;
+    color: #1B3440!important;
     transition: 0.5s;
 }
 
 .button410:hover {
-    background: #004d9e;
+    background: #1B3440;
     transition: 0.5s;
     color: white!important;
 }
@@ -216,20 +216,20 @@
 .button410-2 {
     padding: 10px 15px 10px 15px;
     background: none;
-    border: 1px solid #004d9e;
+    border: 1px solid #1B3440;
     float: right;
     border-radius: 35px;
     text-align: center;
     font-size: 16px;
     font-family: poppins;
     font-weight: bold;
-    color: #004d9e;
+    color: #1B3440;
     width: 190px;
     transition: 0.5s;
 }
 
 .button410-2 a {
-    color: #004d9e;
+    color: #1B3440;
 }
 
 .button410-2 a:hover {
@@ -237,7 +237,7 @@
 }
 
 .button410-2:hover {
-    background: #004d9e;
+    background: #1B3440;
     transition: 0.5s;
     color: white!important;
 }
@@ -246,18 +246,18 @@
     padding: 10px 15px 10px 15px;
     margin: auto;
     border-radius: 35px;
-    border: 1px solid #004d9e;
+    border: 1px solid #1B3440;
     text-align: center;
     font-size: 16px;
     font-family: poppins;
     font-weight: bold;
-    color: #004d9e;
+    color: #1B3440;
     width: 150px;
     transition: 0.5s;
 }
 
 .button410-3:hover{
-  background: #004d9e;
+  background: #1B3440;
   transition: 0.5s;
   color: white;
 }
