@@ -1,4 +1,10 @@
-
+.header-settings-menu-box {
+        top: 90px;
+}
+#page-header,
+#page-content {
+        margin-left: 60px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 
@@ -16,8 +22,8 @@
     width: 50px;
     height: 100%;
     position: fixed;
-    background: #004d9e;
-    top: 72px;
+    background: #1B3440;
+    top: 61px;
     left: 0;
     margin-bottom: -4500px;
     padding-bottom: 4500px;
@@ -67,14 +73,14 @@
 .menu4101{
   width:100%;
   height:55px;
-  background: #adb5bd;
+  background: #1B3440;
 }
 
 .inside4101{
     width: 50px;
     height: 55px;
-    background: #adb5bd;
-    background-image: url(https://i.ibb.co/RzCqttx/arrow-point-to-right-1.png);
+    background: #1B3440;
+    background-image: url(https://i.ibb.co/N7YX2pM/arrow-point-to-right-1.png);
     background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -82,7 +88,7 @@
 }
 
 #imgswitch{
-  background: #adb5bd;
+  background: #DC6E52;
     background-image: url(https://i.ibb.co/RzCqttx/arrow-point-to-right-1.png);
     background-size: 50%;
     background-position: center;
@@ -119,7 +125,7 @@
 .inside410-2 p {
     display: table-cell;
     vertical-align: middle;
-    color: #adb5bd;
+    color: #FFFFFF;
 }
 
 
@@ -127,7 +133,7 @@
     display: table-cell;
     vertical-align: middle;
     text-decoration: none!important;
-    color: #adb5bd!important;
+    color: #FFFFFF !important;
 }
 
 
@@ -189,67 +195,68 @@
 .button410 {
     padding: 10px 15px 10px 15px;
     background: none;
-    border: 1px solid #004d9e;
+    border: 1px solid #DC6E52;
     float: left;
     border-radius: 35px;
     text-align: center;
     font-size: 16px;
     font-family: poppins;
     font-weight: bold;
-    color: #004d9e!important;
+    color: #DC6E52 !important;
     transition: 0.5s;
 }
 
 .button410:hover {
-    background: #004d9e;
+    background: #DC6E52;
     transition: 0.5s;
-    color: white;
+    color: #FFFFFF !important;
 }
 
 .button410-2 {
     padding: 10px 15px 10px 15px;
     background: none;
-    border: 1px solid #004d9e;
+    border: 1px solid #DC6E52;
     float: right;
     border-radius: 35px;
     text-align: center;
     font-size: 16px;
     font-family: poppins;
     font-weight: bold;
-    color: #004d9e;
+    color: #DC6E52 !important;
     width: 190px;
     transition: 0.5s;
 }
 
 .button410-2 a {
-    color: #004d9e;
+    color: #DC6E52 !important;
 }
 
 
 .button410-2:hover {
-    background: #004d9e;
+    background: #DC6E52;
     transition: 0.5s;
-    color: white;
+    color: #FFFFFF !important;
 }
 
 .button410-3 {
+    float: right;
+    margin-right: 52px !important;
     padding: 10px 15px 10px 15px;
-    margin: auto;
     border-radius: 35px;
-    border: 1px solid #004d9e;
+    border: 1px solid #DC6E52;
     text-align: center;
     font-size: 16px;
     font-family: poppins;
     font-weight: bold;
-    background: none!important;
-    color: #004d9e;
+    color: #DC6E52 !important;
     width: 150px;
     transition: 0.5s;
 }
 
 .button410-3:hover{
-  background: #212529;
+  background: #DC6E52;
   transition: 0.5s;
+  color: #FFFFFF !important;
 }
 
 
@@ -353,7 +360,7 @@ grid-row-gap: 20px;
 
   .div2cap{
     border-radius:15px;
-    background:#dee2e6;
+    background:#eaa897;
 }
 
 
@@ -375,61 +382,61 @@ grid-row-gap: 20px;
 
   .div3cap{
     border-radius:15px;
-    background:#dee2e6;
+    background:#eaa897;
 }
 
   .div4cap{
     border-radius:15px;
-    background:#dee2e6;
+    background:#eaa897;
 }
 
   .div6cap{
     border-radius:15px;
-    background:#dee2e6;
+    background:#eaa897;
 }
 
 
   .div7cap{
     border-radius:15px;
-    background:#dee2e6;
+    background:#eaa897;
 }
 
 
   .div8cap{
     border-radius:15px;
-    background:#dee2e6;
+    background:#eaa897;
 }
 
   .div10cap{
     border-radius:15px;
-    background:#dee2e6;
+    background:#eaa897;
 }
 
   .div11cap{
     border-radius:15px;
-    background:#dee2e6;
+    background:#eaa897;
 }
 
   .div12cap{
     border-radius:15px;
-    background:#dee2e6;
+    background:#eaa897;
 }
 
 
 
   .div14cap{
     border-radius:15px;
-    background:#dee2e6;
+    background:#eaa897;
 }
 
   .div15cap{
     border-radius:15px;
-    background:#dee2e6;
+    background:#eaa897;
 }
 
   .div16cap{
     border-radius:15px;
-    background:#dee2e6;
+    background:#eaa897;
 }
 
 
@@ -453,7 +460,7 @@ grid-row-gap: 20px;
 
 #mod1cap{
   text-align: center!important;
-  color: #bec4ca;
+  color: #1B3440;
   font-weight: bold;
   margin: auto;
 }
@@ -461,7 +468,7 @@ grid-row-gap: 20px;
 #mod2cap{
   text-align: center!important;
   padding-top: 40px;
-    color: #bec4ca;
+    color: #1B3440;
   font-weight: bold;
   margin: auto;
 }
@@ -470,7 +477,7 @@ grid-row-gap: 20px;
 #mod3cap{
   text-align: center!important;
   padding-top: 40px;
-    color: #bec4ca;
+    color: #1B3440;
   font-weight: bold;
   margin: auto;
 }
@@ -478,7 +485,7 @@ grid-row-gap: 20px;
 #mod4cap{
   text-align: center!important;
   padding-top: 40px;
-    color: #bec4ca;
+    color: #1B3440;
   font-weight: bold;
   margin: auto;
 }
